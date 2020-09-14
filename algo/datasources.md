@@ -62,7 +62,7 @@ eur.head()
 * This is the grand daddy of financial information. 
 It has a vast repository of historical data that cover most traded securities. 
 There is a pandas datareader that requires a bug fix which is provided below. However, the API is not reliable and will not return data sometimes.
-Fix of yahoo data: https://github.com/ranaroussi/yfinance
+Fix of yahoo data: [https://github.com/ranaroussi/yfinance](https://github.com/ranaroussi/yfinance)
 ```python
 import yfinance as yf
 yf.pdr_override()
@@ -79,7 +79,7 @@ Many freely available data, such as historical equity data, are offered for a fe
 Anonymous users have a limit of 20 calls per 10 minutes and 50 calls per day. 
 Authenticated users have a limit of 300 calls per 10 seconds, 2000 calls per 10 minutes and a limit of 50,000 calls per day.
 Authenticated users of free data feeds have a concurrency limit of one; that is, they can make one call at a time and have an additional call in the queue.
-See API documentation there: https://docs.quandl.com/ 
+See API documentation there: [https://docs.quandl.com/ ](https://docs.quandl.com/)
 
 `pip3.8 install quandl`
 
@@ -108,7 +108,7 @@ financials
 Third-party filings with respect to these companies, such as tender offers and Schedule 12D filings, are also filed via EDGRA.
 Not all SEC filings by public companies are available on EDGRA. Companies were phrased to EDGAR filing over a three-year period, ending 6 May 1996.
 Information is copious and needs to be parsed.
-For more information go here: https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm
+For more information go here: [https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm](https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm)
 
 ```python
 #https://pypi.org/project/edgar/
@@ -119,4 +119,4 @@ docs = Company.get_documents(tree, no_of_documents=5)
 print(docs)
 ```
 
-[index](././)
+[index](/)
