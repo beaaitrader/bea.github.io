@@ -1,5 +1,5 @@
 title: Bea AI Trader
 description: Bea AI Trader - Algo Trader with AI strategies
 show_downloads: false
-google_analytics:
+google_analytics: true
 theme: jekyll-theme-cayman
